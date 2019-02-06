@@ -16,6 +16,13 @@ public class CommonFuncTest {
 		}else{
 			fail("期望值为3");
 		}
+		
+		res = cf.add(-1, -2);
+		if(res==-3){
+			assertTrue(true);
+		}else{
+			fail("期望值为-3");
+		}
 	}
 
 }
